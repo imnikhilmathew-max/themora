@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 
 export function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-[#F5F1E8] border-t border-[#E5E1D8] mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -45,7 +49,11 @@ export function Footer() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 + index * 0.05 }}
                 >
-                  <Link to={link.path} className="text-sm text-[#6B7280] hover:text-[#9CAF88] transition-colors">
+                  <Link 
+                    to={link.path} 
+                    onClick={scrollToTop}
+                    className="text-sm text-[#6B7280] hover:text-[#9CAF88] transition-colors"
+                  >
                     {link.label}
                   </Link>
                 </motion.div>
@@ -74,7 +82,11 @@ export function Footer() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.3 + index * 0.05 }}
                 >
-                  <Link to={link.path} className="text-sm text-[#6B7280] hover:text-[#9CAF88] transition-colors">
+                  <Link 
+                    to={link.path} 
+                    onClick={scrollToTop}
+                    className="text-sm text-[#6B7280] hover:text-[#9CAF88] transition-colors"
+                  >
                     {link.label}
                   </Link>
                 </motion.div>
