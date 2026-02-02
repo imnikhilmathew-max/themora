@@ -12,7 +12,7 @@ export function BlogPage() {
       category: 'Habits',
       readTime: '6 min read',
       date: 'January 15, 2026',
-      image: 'https://images.unsplash.com/photo-1494928112383-c3e0ecad8b1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3JuaW5nJTIwcm91dGluZSUyMGNvZmZlZSUyMHN1bnJpc2V8ZW58MXx8fHwxNzY5OTgxNzE5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+      image: 'https://images.unsplash.com/photo-1579741370245-a1bf1cf90c4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3JuaW5nJTIwcm91dGluZSUyMGNvZmZlZSUyMGpvdXJuYWwlMjBzdW5yaXNlfGVufDF8fHx8MTc3MDA0NjQ2NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
     },
     {
       id: 'skincare-routine-guide',
