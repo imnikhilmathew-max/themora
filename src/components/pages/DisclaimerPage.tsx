@@ -163,7 +163,7 @@ export function DisclaimerPage() {
                 If you have questions about this disclaimer, please contact us at:
                 <br />
                 <a href="mailto:contact@themoradaily.in" className="text-[#9CAF88] hover:underline">
-                  contact@themoradaily.in
+                  themoradaily@gmail.com
                 </a>
               </p>
             </div>
