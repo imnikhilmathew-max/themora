@@ -26,7 +26,7 @@ export function RecommendationsPage() {
         description: 'A mild, non-comedogenic cleanser designed to gently cleanse while maintaining the skin’s natural moisture balance. Ideal for daily use on dry to normal skin types.',
         reason: 'Why we recommend it: Gentle micellar technology effectively removes dirt, makeup, and impurities without stripping the skin. Clinically tested hydration helps keep skin feeling comfortable and hydrated after cleansing',
         category: 'Skincare',
-        image: 'https://images.unsplash.com/photo-1556228720-9b1e04f13f63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMGNsZWFuc2VyJTIwYm90dGxlJTIwcHJvZHVjdHxlbnwxfHx8fDE3Njk5MDA3MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        image: 'https://smytten-image.gumlet.io/discover_product/1693549715_1692163522_cetaphil.avif',
         amazonUrl: 'https://amzn.to/45HEgkm'
       },
       {
@@ -34,7 +34,7 @@ export function RecommendationsPage() {
         description: 'A lightweight, water-gel moisturizer formulated with hyaluronic acid to help replenish and lock in hydration. Designed for everyday use, it delivers a fresh, breathable feel without heaviness or greasiness.',
         reason: '	•	Powered by hyaluronic acid, known for helping the skin retain moisture and stay hydrated •	Lightweight water-gel texture absorbs quickly and feels comfortable on the skin•	Oil-free and non-greasy, making it suitable for daily use and humid climates',
         category: 'Skincare',
-        image: 'https://images.unsplash.com/photo-1763503836825-97f5450d155a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2lzdHVyaXplciUyMGNyZWFtJTIwamFyJTIwcHJvZHVjdHxlbnwxfHx8fDE3Njk5ODEwNzl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        image: 'https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/01/1826371-Neutrogena-Hydro-Boost-Water-Gel-Review-1296x728-Header-c0dcdf.jpg?w=1575',
       amazonUrl: 'https://amzn.to/3LRLsDL'
       },
       {
@@ -42,7 +42,7 @@ export function RecommendationsPage() {
         description: 'Matte finish Invisible Sunscreen for Oily, Blemish & Acne-Prone',
         reason: '	•	Broad-spectrum SPF 50+ protection helps shield the skin from both UVA and UVB rays •	Powered by Mexoryl 400, an advanced UV filter developed to improve protection against long UVA rays•	Gel-cream texture absorbs quickly without leaving a sticky or heavy residue',
         category: 'Skincare',
-        image: 'https://images.unsplash.com/photo-1594332322527-08753d4473c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdW5zY3JlZW4lMjBib3R0bGUlMjBza2luY2FyZXxlbnwxfHx8fDE3Njk5NjY1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        image: 'https://m.media-amazon.com/images/I/51WC+UB8NFL._SX522_.jpg',
         amazonUrl: 'https://amzn.to/4c77Ovw'
       },
       {
@@ -50,7 +50,7 @@ export function RecommendationsPage() {
         description: 'A grooming tool and care solution designed to support healthier-looking beard growth and improve the appearance of patchy or uneven areas when used consistently as part of a beard-care routine.',
         reason: 'Supports fuller-looking beard growth by stimulating the skin and hair follicles. Helps reduce the appearance of patchiness by encouraging more even growth over time',
         category: 'Grooming',
-        image: 'https://beardo.in/products/beardo-beard-growth-duo-v2?srsltid=AfmBOoob7EVpWgarZdE-gqm7n7C8P1DexB3TcZal9_Nbm0kB0NmxeEcH',
+        image: 'https://beardo.in/cdn/shop/files/1_db396662-b60a-4480-a6e3-e1daaeb9d35f.jpg?v=1762752447&width=1946',
         amazonUrl: 'https://amzn.to/4roawB7'
       }
     ],
