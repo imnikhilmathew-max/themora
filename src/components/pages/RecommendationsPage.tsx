@@ -60,28 +60,33 @@ export function RecommendationsPage() {
         description: 'High-quality omega-3 supplement supporting heart and brain health.',
         reason: 'Sourced from deep-sea fish with good EPA/DHA ratio. Important for those who don\'t consume enough fatty fish in their diet.',
         category: 'Supplements',
-        image: 'https://images.unsplash.com/photo-1576437293196-fc3080b75964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbWVnYSUyMGZpc2glMjBvaWwlMjBjYXBzdWxlc3xlbnwxfHx8fDE3Njk5Njc4NzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://m.media-amazon.com/images/I/716XShje6tL._SX679_.jpg',
+        amazonUrl: 'https://amzn.to/4kl077i'
+
       },
       {
         name: 'Himalaya Ashwagandha Tablets',
         description: 'Traditional Ayurvedic adaptogen for stress management and overall wellness.',
         reason: 'Well-established brand with quality control. Ashwagandha is backed by research for stress reduction and energy support.',
         category: 'Supplements',
-        image: 'https://images.unsplash.com/photo-1740592754365-2117f5977528?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZXJiYWwlMjBzdXBwbGVtZW50JTIwdGFibGV0c3xlbnwxfHx8fDE3Njk5ODEwODB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://m.media-amazon.com/images/I/81GL5NJov3L._SX679_.jpg',
+        amazonUrl: 'https://amzn.to/4rsGaxq'
       },
       {
-        name: 'Healthvit Vitamin D3',
-        description: 'Essential vitamin D supplement for bone health and immunity.',
-        reason: 'Many people are deficient in Vitamin D, especially those with limited sun exposure. Important for overall health.',
+        name: 'Carbamide Forte Vitamin D3 K2 Supplement',
+        description: 'Essential Vitamin K2 MK7 To Support Bone & Heart Health',
+        reason: ' These Vitamins D supplements combine Vitamin D3, Vitamin K2 MK7, and K2 D3 vitamin supplement synergy to help calcium reach the bones instead of arteries.',
         category: 'Supplements',
-        image: 'https://images.unsplash.com/photo-1763668331599-487470fb85b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXRhbWluJTIwc3VwcGxlbWVudCUyMGJvdHRsZXxlbnwxfHx8fDE3Njk5MzA5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://m.media-amazon.com/images/I/71bQqgqf2oL._SX679_.jpg',
+        amazonUrl: "https://amzn.to/46jpsZf'
       },
       {
         name: 'Organic India Tulsi Green Tea',
         description: 'Caffeine-free herbal tea combining tulsi with green tea benefits.',
         reason: 'Great for daily wellness routine. Tulsi is traditionally used for stress relief and overall vitality.',
         category: 'Wellness',
-        image: 'https://images.unsplash.com/photo-1566373104181-133b57c9fd98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHRlYSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2OTk4MTA4MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1566373104181-133b57c9fd98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHRlYSUyMHdlbGxuZXNzfGVufDF8fHx8MTc2OTk4MTA4MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        amazonUrl: 'https://amzn.to/4qPO6Je'
       }
     ],
     style: [
@@ -90,28 +95,32 @@ export function RecommendationsPage() {
         description: 'Comfortable, versatile running shoes suitable for daily wear and light exercise.',
         reason: 'Good cushioning and support for everyday activities. Durable construction and widely available in India.',
         category: 'Footwear',
-        image: 'https://images.unsplash.com/photo-1739138056250-8fe572213417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWtlJTIwcnVubmluZyUyMHNob2VzJTIwc25lYWtlcnN8ZW58MXx8fHwxNzY5OTgxMDgxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1632668701778-24798acadfa6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        amazonUrl: 'https://amzn.to/4a9WMTz'
       },
       {
         name: 'Adidas Ultraboost Sneakers',
         description: 'Premium comfort sneakers with responsive cushioning technology.',
         reason: 'Exceptional comfort for all-day wear. Stylish enough for casual outings while providing excellent foot support.',
         category: 'Footwear',
-        image: 'https://images.unsplash.com/photo-1618545647089-da834ede280c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZGlkYXMlMjB1bHRyYWJvb3N0JTIwc25lYWtlcnMlMjB3aGl0ZXxlbnwxfHx8fDE3Njk5ODEwODJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://plus.unsplash.com/premium_photo-1663127271784-0078c24adfab?q=80&w=2134&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        amazonUrl: 'https://amzn.to/3ZOYC7C'
       },
       {
-        name: 'Bata Comfit Casual Shoes',
+        name: 'Bata Comfit Men Slip-on Sneaker',
         description: 'Affordable, comfortable everyday shoes for work and casual occasions.',
         reason: 'Reliable Indian brand with good value for money. Comfortable for long hours of wear.',
         category: 'Footwear',
-        image: 'https://images.unsplash.com/photo-1616663308968-58162d332720?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBsZWF0aGVyJTIwc2hvZXMlMjBicm93bnxlbnwxfHx8fDE3Njk5ODEwODJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1616663308968-58162d332720?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBsZWF0aGVyJTIwc2hvZXMlMjBicm93bnxlbnwxfHx8fDE3Njk5ODEwODJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        amazonUrl: 'https://amzn.to/4bzzyZw'
       },
       {
-        name: 'Wildcraft Backpack',
+        name: 'Wildcraft Nylon 44 Ltrs Casual Backpack',
         description: 'Durable, ergonomic backpack for daily commute and travel.',
         reason: 'Well-designed with good organization pockets. Comfortable for daily use and built to last.',
         category: 'Accessories',
-        image: 'https://images.unsplash.com/photo-1760909148912-1f3f45ab3f5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWNrcGFjayUyMHRyYXZlbCUyMG1pbmltYWxpc3R8ZW58MXx8fHwxNzY5OTgxMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1760909148912-1f3f45ab3f5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWNrcGFjayUyMHRyYXZlbCUyMG1pbmltYWxpc3R8ZW58MXx8fHwxNzY5OTgxMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+         amazonUrl: 'https://amzn.to/3Mc9TM5'
       }
     ],
     books: [
@@ -120,28 +129,32 @@ export function RecommendationsPage() {
         description: 'Practical guide to building good habits and breaking bad ones through small changes.',
         reason: 'One of the most practical books on habit formation. Clear, actionable advice backed by research.',
         category: 'Personal Growth',
-        image: 'https://images.unsplash.com/photo-1598301257942-e6bde1d2149b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdG9taWMlMjBoYWJpdHMlMjBib29rJTIwY292ZXJ8ZW58MXx8fHwxNzY5OTgxMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1598301257942-e6bde1d2149b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdG9taWMlMjBoYWJpdHMlMjBib29rJTIwY292ZXJ8ZW58MXx8fHwxNzY5OTgxMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        amazonUrl: 'https://amzn.to/4c2RsnG'
       },
       {
         name: 'The Psychology of Money by Morgan Housel',
         description: 'Timeless lessons on wealth, greed, and happiness through the lens of psychology.',
         reason: 'Excellent for understanding financial behavior and decision-making. Relevant for all income levels.',
         category: 'Personal Finance',
-        image: 'https://images.unsplash.com/photo-1565514417878-a66a6b0f2c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMGZpbmFuY2UlMjBib29rfGVufDF8fHx8MTc2OTk4MTA4NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1565514417878-a66a6b0f2c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMGZpbmFuY2UlMjBib29rfGVufDF8fHx8MTc2OTk4MTA4NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        amazonUrl: 'https://amzn.to/4aahUt7'
       },
       {
         name: 'Deep Work by Cal Newport',
         description: 'Rules for focused success in a distracted world.',
         reason: 'Essential read for improving productivity and concentration. Particularly relevant in our digital age.',
         category: 'Productivity',
-        image: 'https://images.unsplash.com/photo-1658842042779-dc9ab3125690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0aXZpdHklMjBzZWxmJTIwaGVscCUyMGJvb2tzfGVufDF8fHx8MTc2OTk4MTA4NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1711185895262-f14ad4d4eeac?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        amazonUrl: 'https://amzn.to/3M40shS'
       },
       {
         name: 'The 5 AM Club by Robin Sharma',
         description: 'Guide to owning your morning and elevating your life through early rising routines.',
         reason: 'Practical framework for morning routines. Helpful for those looking to optimize their daily schedule.',
         category: 'Personal Growth',
-        image: 'https://images.unsplash.com/photo-1613926161474-fcc7a939e051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMGdyb3d0aCUyMGJvb2tzJTIwc3RhY2t8ZW58MXx8fHwxNzY5OTgxMDg1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
+        image: 'https://images.unsplash.com/photo-1613926161474-fcc7a939e051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMGdyb3d0aCUyMGJvb2tzJTIwc3RhY2t8ZW58MXx8fHwxNzY5OTgxMDg1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        amazonUrl: 'https://amzn.to/4rt2irs'
       }
     ]
   };
