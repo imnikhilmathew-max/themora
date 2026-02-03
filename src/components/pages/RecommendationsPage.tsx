@@ -324,7 +324,7 @@ export function RecommendationsPage() {
                   <motion.a
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
-                    href="https://www.amazon.in"
+                    href={product.amazonUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-[#9CAF88] hover:text-[#8A9E78] transition-colors"
@@ -399,7 +399,7 @@ export function RecommendationsPage() {
                   <motion.a
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
-                    href="https://www.amazon.in"
+                    href={product.amazonUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-[#9CAF88] hover:text-[#8A9E78] transition-colors"
@@ -474,7 +474,7 @@ export function RecommendationsPage() {
                   <motion.a
                     whileHover={{ x: 5 }}
                     transition={{ duration: 0.2 }}
-                    href="https://www.amazon.in"
+                    href={product.amazonUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-[#9CAF88] hover:text-[#8A9E78] transition-colors"
