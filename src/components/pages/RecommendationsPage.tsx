@@ -50,7 +50,7 @@ export function RecommendationsPage() {
         description: 'A grooming tool and care solution designed to support healthier-looking beard growth and improve the appearance of patchy or uneven areas when used consistently as part of a beard-care routine.',
         reason: 'Supports fuller-looking beard growth by stimulating the skin and hair follicles. Helps reduce the appearance of patchiness by encouraging more even growth over time',
         category: 'Grooming',
-        image: 'https://images.unsplash.com/photo-1655241406159-78b405cebb0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWFyZCUyMG9pbCUyMGdyb29taW5nJTIwcHJvZHVjdHxlbnwxfHx8fDE3Njk4NzUzOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        image: 'https://beardo.in/products/beardo-beard-growth-duo-v2?srsltid=AfmBOoob7EVpWgarZdE-gqm7n7C8P1DexB3TcZal9_Nbm0kB0NmxeEcH',
         amazonUrl: 'https://amzn.to/4roawB7'
       }
     ],
