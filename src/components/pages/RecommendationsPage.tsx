@@ -78,7 +78,7 @@ export function RecommendationsPage() {
         reason: ' These Vitamins D supplements combine Vitamin D3, Vitamin K2 MK7, and K2 D3 vitamin supplement synergy to help calcium reach the bones instead of arteries.',
         category: 'Supplements',
         image: 'https://m.media-amazon.com/images/I/71bQqgqf2oL._SX679_.jpg',
-        amazonUrl: "https://amzn.to/46jpsZf'
+        amazonUrl: 'https://amzn.to/46jpsZf'
       },
       {
         name: 'Organic India Tulsi Green Tea',
