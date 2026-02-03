@@ -51,12 +51,12 @@ const articles: Article[] = [
             {
               name: 'Cetaphil Gentle Skin Cleanser',
               reason: 'A quick, gentle cleanser that fits seamlessly into any morning routine—perfect for all skin types.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/45HEgkm'
             },
             {
-              name: 'Organic India Tulsi Green Tea',
+              name: 'Organic India Tulsi Green Tea Classic Loose Leaves',
               reason: 'A calming way to start your day with wellness benefits and no coffee jitters.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/4qPO6Je'
             }
           ]
         },
@@ -71,7 +71,7 @@ const articles: Article[] = [
             {
               name: 'Atomic Habits by James Clear',
               reason: 'The definitive guide to building habits that stick—practical, research-backed, and easy to apply.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/4c2RsnG'
             }
           ]
         },
@@ -101,17 +101,17 @@ const articles: Article[] = [
             {
               name: 'Cetaphil Gentle Skin Cleanser',
               reason: 'Dermatologist-recommended, pH-balanced, and gentle enough for sensitive skin—perfect for daily cleansing.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/45HEgkm'
             },
             {
-              name: 'Neutrogena Hydro Boost Water Gel',
-              reason: 'Lightweight, oil-free hydration with hyaluronic acid—works well under makeup and in humid climates.',
-              amazonUrl: 'https://www.amazon.in'
+              name: 'Neutrogena Hydro Boost Hyaluronic Acid Face Moisturizer',
+              reason: 'A lightweight, water-gel moisturizer formulated with hyaluronic acid to help replenish and lock in hydration',
+              amazonUrl: 'https://amzn.to/3LRLsDL'
             },
             {
-              name: 'La Roche-Posay Anthelios Sunscreen SPF 50',
-              reason: 'Broad-spectrum protection without white cast—non-negotiable for daily use.',
-              amazonUrl: 'https://www.amazon.in'
+              name: 'La Roche-Posay Anthelios Sunscreen UVMune 400 Oil Control Gel Cream SPF50+',
+              reason: 'Broad-spectrum protection- Matte finish Invisible Sunscreen for Oily, Blemish & Acne-Prone',
+              amazonUrl: 'https://amzn.to/4c77Ovw'
             }
           ]
         },
@@ -151,9 +151,9 @@ const articles: Article[] = [
           content: 'Walking is one of the most effective forms of exercise, and it costs nothing. Aim for 30 minutes a day—whether it\'s a morning walk, lunchtime stroll, or evening walk around your neighborhood. Consistency matters more than intensity.',
           products: [
             {
-              name: 'Nike Revolution Running Shoes',
-              reason: 'Comfortable, supportive shoes make walking enjoyable—good cushioning for daily wear and light exercise.',
-              amazonUrl: 'https://www.amazon.in'
+              name: 'Nike Mens Revolution 7 Running Shoes',
+              reason: 'Comfortable, supportive shoes make walking enjoyable - good cushioning for daily wear and light exercise.',
+              amazonUrl: 'https://amzn.to/4a9WMTz'
             }
           ]
         },
@@ -172,7 +172,7 @@ const articles: Article[] = [
             {
               name: 'Adidas Ultraboost Sneakers',
               reason: 'Premium comfort for all-day wear—responsive cushioning and stylish design.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/3ZOYC7C'
             }
           ]
         },
@@ -206,7 +206,7 @@ const articles: Article[] = [
             {
               name: 'Deep Work by Cal Newport',
               reason: 'The essential guide to focused success in a distracted world—practical strategies backed by research.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/3M40shS'
             }
           ]
         },
@@ -261,7 +261,7 @@ const articles: Article[] = [
             {
               name: 'Neuherbs Omega-3 Fish Oil Capsules',
               reason: 'Supports brain health and mood regulation—important for stress resilience.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/3MmW79w'
             }
           ]
         },
@@ -311,7 +311,7 @@ const articles: Article[] = [
             {
               name: 'The Psychology of Money by Morgan Housel',
               reason: 'Timeless lessons on wealth and happiness—relevant for all income levels and life stages.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/4aahUt7'
             }
           ]
         },
