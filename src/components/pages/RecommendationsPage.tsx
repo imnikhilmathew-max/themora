@@ -22,9 +22,14 @@ export function RecommendationsPage() {
   const products = {
     skincare: [
       {
-        name: 'Cetaphil Gentle Skin Cleanser',
-        description: 'A dermatologist-recommended gentle cleanser suitable for all skin types, including sensitive skin.',
-        reason: 'pH-balanced formula that cleanses without stripping natural oils. Trusted by dermatologists worldwide and gentle enough for daily use.',
+        name: 'Cetaphil Gentle Skin Cleanser for Dry, Normal Sensitive Skin',
+        description: 'A mild, non-comedogenic cleanser designed to gently cleanse while maintaining the skin’s natural moisture balance. Ideal for daily use on dry to normal skin types.',
+        reason: 'Why we recommend it
+	•	Gentle micellar technology effectively removes dirt, makeup, and impurities without stripping the skin
+	•	Clinically tested hydration helps keep skin feeling comfortable and hydrated after cleansing
+	•	Strengthens the skin barrier with a blend of Niacinamide, Vitamin B5 (Panthenol), and hydrating Glycerin
+	•	Hypoallergenic formula free from parabens, sulphates, fragrances, and oils
+	•	Defends against 5 signs of dryness: dryness, irritation, roughness, tightness, and a weakened skin barrier',
         category: 'Skincare',
         image: 'https://images.unsplash.com/photo-1556228720-9b1e04f13f63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMGNsZWFuc2VyJTIwYm90dGxlJTIwcHJvZHVjdHxlbnwxfHx8fDE3Njk5MDA3MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
       },
