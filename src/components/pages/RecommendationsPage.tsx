@@ -22,12 +22,36 @@ export function RecommendationsPage() {
   const products = {
     skincare: [
       {
+        name: 'Minimalist Dull Skin, Dark Spots & Uneven Tone Treatment 10% Vitamin C Face Serum',
+        description: 'A lightweight vitamin C serum formulated with 10% Ethyl Ascorbic Acid to support brighter, more even-looking skin. Infused with soothing Centella water, it helps hydrate and calm while fitting comfortably into everyday routines for all skin types.',
+        reason: '	•	Uses a stable vitamin C derivative (Ethyl Ascorbic Acid) that fits well into everyday routines •	Gentle, fragrance-free formula designed to feel comfortable on different skin types •	Includes Centella water to help keep the skin feeling calm and balanced',
+        category: 'Skincare',
+        image: 'https://m.media-amazon.com/images/I/717Kb7GUFyL._SX679_.jpg',
+        amazonUrl: 'https://amzn.to/3O559IL'
+      },
+      {
+        name: 'Cetaphil Moisturising Cream 100 g for Dry & Sensitive Skin',
+        description: 'A rich, nourishing moisturizing cream designed to provide long-lasting hydration while supporting the skin’s natural barrier. Formulated with Almond Oil, Niacinamide, and Panthenol for everyday comfort across all skin types.',
+        reason: '	•	Offers deep, long-lasting hydration without feeling heavy, making it suitable for daily use. •	A fragrance-free, dermatologist-recommended formula that works well for both men and women.',
+        category: 'Skincare',
+        image: 'https://m.media-amazon.com/images/I/615fFn0PrZL._SX679_.jpg',
+        amazonUrl: 'https://amzn.to/4kfMG8i'
+      },
+      {
         name: 'Cetaphil Gentle Skin Cleanser for Dry, Normal Sensitive Skin',
         description: 'A mild, non-comedogenic cleanser designed to gently cleanse while maintaining the skin’s natural moisture balance. Ideal for daily use on dry to normal skin types.',
         reason: 'Why we recommend it: Gentle micellar technology effectively removes dirt, makeup, and impurities without stripping the skin. Clinically tested hydration helps keep skin feeling comfortable and hydrated after cleansing',
         category: 'Skincare',
         image: 'https://smytten-image.gumlet.io/discover_product/1693549715_1692163522_cetaphil.avif',
         amazonUrl: 'https://amzn.to/45HEgkm'
+      },
+      {
+        name: 'Plum 3% Niacinamide & Rice Water Face Toner | Alcohol-Free Toner for Oily Acne Prone Dry Combination Skin | Pore Tightening & Glowing Skin',
+        description: 'A lightweight, alcohol-free toner formulated with 3% niacinamide and rice water to support clearer, smoother-looking skin. Designed to balance oil, refine the look of pores, and keep skin feeling calm and hydrated across different skin types.',
+        reason: '	•	Uses niacinamide, rice ferment, and oat extract to help balance skin while staying gentle and non-drying.	•	Alcohol-free, non-comedogenic, and pH-balanced, making it easy to use daily for oily, acne-prone, combination, or sensitive skin.',
+        category: 'Skincare',
+        image: 'https://m.media-amazon.com/images/I/41BNihr3HwL._SX679_.jpg',
+        amazonUrl: 'https://amzn.to/45RAJQt'
       },
       {
         name: 'Neutrogena Hydro Boost Hyaluronic Acid Face Moisturizer',
