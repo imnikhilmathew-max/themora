@@ -54,6 +54,30 @@ export function RecommendationsPage() {
         amazonUrl: 'https://amzn.to/45RAJQt'
       },
       {
+        name: 'The Derma Co 1% Hyaluronic Sunscreen Aqua Gel SPF 50 PA++++ ',
+        description: 'A lightweight, water-gel sunscreen with SPF 50 PA++++ designed to provide broad-spectrum protection while keeping skin hydrated and comfortable. Formulated with Hyaluronic Acid and Vitamin E, it absorbs quickly without leaving a greasy feel or white cast.',
+        reason: '		•	Offers high UVA and UVB protection in a gel texture that feels easy to wear every day •	Fragrance-free, non-greasy, and lightweight, making it suitable for daily use across different skin types, especially in warm or humid weather.',
+        category: 'Skincare',
+        image: 'https://m.media-amazon.com/images/I/61r7v2ziqPL._SL1080_.jpg',
+        amazonUrl: 'https://amzn.to/46zX59h'
+      },
+      {
+        name: 'The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone',
+        description: 'An exfoliating toner formulated with 7% glycolic acid to help smooth skin texture and support a more even-looking skin tone. Best used in the evening, it gently refreshes dull skin while keeping the routine simple and effective.',
+        reason: '			•	Uses glycolic acid with soothing plant extracts like Tasmanian pepperberry and aloe to balance exfoliation and comfort. •	A multi-purpose formula that fits well into minimal routines when used thoughtfully and consistently.',
+        category: 'Skincare',
+        image: 'https://m.media-amazon.com/images/I/5147PCBYBnL._SL1080_.jpg',
+        amazonUrl: 'https://amzn.to/4r1xYVl'
+      },
+      {
+        name: 'LOreal Paris Fresh Hyaluron Moisture 72HR Moisture Sealing Conditioner Powered By Hyaluronic Acid, For Frizz-Free | Hydrated And Bouncy Hair Full Of Life For All Hair Types',
+        description: 'A lightweight conditioner powered by hyaluronic acid to help hydrate dry, dull hair without weighing it down.Designed to leave hair feeling soft, smooth, and more manageable with regular use across all hair types.',
+        reason: '		•	Uses hyaluronic acid–inspired skincare technology to support long-lasting hydration and reduce frizz. •	Feels light and non-heavy, making it suitable for daily routines and different hair textures.',
+        category: 'Skincare',
+        image: 'https://m.media-amazon.com/images/I/511fPrnY+bL._SL1500_.jpg',
+        amazonUrl: 'https://amzn.to/4a9kSPT'
+      },
+      {
         name: 'Neutrogena Hydro Boost Hyaluronic Acid Face Moisturizer',
         description: 'A lightweight, water-gel moisturizer formulated with hyaluronic acid to help replenish and lock in hydration. Designed for everyday use, it delivers a fresh, breathable feel without heaviness or greasiness.',
         reason: '	•	Powered by hyaluronic acid, known for helping the skin retain moisture and stay hydrated •	Lightweight water-gel texture absorbs quickly and feels comfortable on the skin•	Oil-free and non-greasy, making it suitable for daily use and humid climates',
@@ -161,7 +185,7 @@ export function RecommendationsPage() {
         description: 'Timeless lessons on wealth, greed, and happiness through the lens of psychology.',
         reason: 'Excellent for understanding financial behavior and decision-making. Relevant for all income levels.',
         category: 'Personal Finance',
-        image: 'https://images.unsplash.com/photo-1565514417878-a66a6b0f2c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb25hbCUyMGZpbmFuY2UlMjBib29rfGVufDF8fHx8MTc2OTk4MTA4NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+        image: 'https://m.media-amazon.com/images/I/71XEsXS5RlL._SL1500_.jpg',
         amazonUrl: 'https://amzn.to/4aahUt7'
       },
       {

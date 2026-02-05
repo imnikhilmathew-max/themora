@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
-import { motion } from 'motion/react';
+import { Link } from "react-router-dom";
+import { motion } from "motion/react";
+import { Youtube } from "lucide-react";
+import { FaPinterestP } from "react-icons/fa";
 
 export function Footer() {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -11,20 +13,56 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="col-span-1 md:col-span-2"
           >
-            <h3 className="text-xl tracking-tight text-[#2D3748] mb-2">Themora Daily</h3>
+            <h3 className="text-xl tracking-tight text-[#2D3748] mb-2">
+              Themora Daily
+            </h3>
+
             <p className="text-sm text-[#6B7280] mb-4">
               Better Routines. Better Life.
             </p>
-            <p className="text-sm text-[#6B7280]">
-              Your trusted source for curated self-care, wellness, and lifestyle recommendations.
+
+            <p className="text-sm text-[#6B7280] mb-6">
+              Your trusted source for curated self-care, wellness, and lifestyle
+              recommendations.
             </p>
+
+            {/* Social Media Icons */}
+            <div className="flex gap-4">
+              {/* Pinterest */}
+              <motion.a
+                href="https://www.pinterest.com/themoradaily"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.1, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.2 }}
+                className="w-10 h-10 rounded-full bg-[#E5E1D8] flex items-center justify-center text-[#6B7280] hover:bg-[#9CAF88] hover:text-white transition-colors"
+                aria-label="Visit our Pinterest"
+              >
+                <FaPinterestP className="w-5 h-5" />
+              </motion.a>
+
+              {/* YouTube */}
+              <motion.a
+                href="https://www.youtube.com/@themoradaily"
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.1, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.2 }}
+                className="w-10 h-10 rounded-full bg-[#E5E1D8] flex items-center justify-center text-[#6B7280] hover:bg-[#9CAF88] hover:text-white transition-colors"
+                aria-label="Visit our YouTube channel"
+              >
+                <Youtube className="w-5 h-5" />
+              </motion.a>
+            </div>
           </motion.div>
 
           {/* Quick Links */}
@@ -34,13 +72,16 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <h4 className="text-sm tracking-wide text-[#2D3748] mb-4">Quick Links</h4>
+            <h4 className="text-sm tracking-wide text-[#2D3748] mb-4">
+              Quick Links
+            </h4>
+
             <div className="flex flex-col gap-2">
               {[
-                { label: 'About Us', path: '/about' },
-                { label: 'Our Recommendations', path: '/recommendations' },
-                { label: 'Journal', path: '/blog' },
-                { label: 'Contact', path: '/contact' }
+                { label: "About Us", path: "/about" },
+                { label: "Our Recommendations", path: "/recommendations" },
+                { label: "Journal", path: "/blog" },
+                { label: "Contact", path: "/contact" },
               ].map((link, index) => (
                 <motion.div
                   key={link.path}
@@ -49,8 +90,8 @@ export function Footer() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 + index * 0.05 }}
                 >
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     onClick={scrollToTop}
                     className="text-sm text-[#6B7280] hover:text-[#9CAF88] transition-colors"
                   >
@@ -68,12 +109,18 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h4 className="text-sm tracking-wide text-[#2D3748] mb-4">Legal</h4>
+            <h4 className="text-sm tracking-wide text-[#2D3748] mb-4">
+              Legal
+            </h4>
+
             <div className="flex flex-col gap-2">
               {[
-                { label: 'Privacy Policy', path: '/privacy-policy' },
-                { label: 'Affiliate Disclosure', path: '/affiliate-disclosure' },
-                { label: 'Disclaimer', path: '/disclaimer' }
+                { label: "Privacy Policy", path: "/privacy-policy" },
+                {
+                  label: "Affiliate Disclosure",
+                  path: "/affiliate-disclosure",
+                },
+                { label: "Disclaimer", path: "/disclaimer" },
               ].map((link, index) => (
                 <motion.div
                   key={link.path}
@@ -82,8 +129,8 @@ export function Footer() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.3 + index * 0.05 }}
                 >
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     onClick={scrollToTop}
                     className="text-sm text-[#6B7280] hover:text-[#9CAF88] transition-colors"
                   >
@@ -95,7 +142,8 @@ export function Footer() {
           </motion.div>
         </div>
 
-        <motion.div 
+        {/* Bottom bar */}
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
