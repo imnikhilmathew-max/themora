@@ -1,4 +1,4 @@
-import { Calendar } from 'lucide-react';
+import { Calendar, Clock } from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';

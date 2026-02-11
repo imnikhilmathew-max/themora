@@ -256,7 +256,7 @@ const articles: Article[] = [
             {
               name: 'Himalaya Ashwagandha Tablets',
               reason: 'Well-researched adaptogen for stress management—trusted brand with quality control.',
-              amazonUrl: 'https://www.amazon.in'
+              amazonUrl: 'https://amzn.to/4quVTva'
             },
             {
               name: 'Neuherbs Omega-3 Fish Oil Capsules',
